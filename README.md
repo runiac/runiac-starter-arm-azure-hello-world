@@ -12,7 +12,7 @@
 <h5>
 <p></p>
 
-## Step 0: Requirements
+### Requirements
 
 - An Azure subscription [(free to start)](https://azure.microsoft.com/en-us/free/)
 - [Docker](https://docs.docker.com/get-docker/)
@@ -49,7 +49,7 @@ Congratulations! You've successfully run, modified and destroyed your Runiac pro
 
 ### Important Notes
 
-This example assumes you are using your own login credentials to deploy infrastructure. In a production situation, it is recommended to use a [service principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals), especially
+This example assumes you are using your own login credentials to deploy infrastructure. In a production situation it is recommended to use a [service principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals), especially
 if you intend to use runiac in a CI/CD pipeline.
 
 In the context of an Azure YAML pipeline, you can obtain these values by setting the `addSpnToEnvironment` input to `true` on the
